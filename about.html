@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — NextDoorCustoms</title>
+  <meta name="description" content="Learn about NextDoorCustoms — Connecticut's trusted mobile car detailing service. Local, reliable, and passionate about every vehicle we touch.">
+  <meta property="og:title" content="About NextDoorCustoms">
+  <meta property="og:description" content="Local CT car detailing done right. Mobile service or drop off — quality you can see.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .values-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.25rem;
+      margin-top: 3rem;
+    }
+    .value-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+    }
+    .value-icon { font-size: 1.75rem; margin-bottom: 0.75rem; }
+    .value-card h3 { font-size: 1rem; margin-bottom: 0.4rem; }
+    .value-card p { color: var(--text-muted); font-size: 0.88rem; line-height: 1.6; }
+    .area-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 1rem;
+    }
+    .area-tag {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 0.3rem 0.9rem;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Main navigation">
+        <a href="index.html" class="nav-logo">NextDoorCustoms</a>
+        <ul class="nav-links" role="list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="nav-right">
+          <a href="https://www.instagram.com/NextDoorCustoms" target="_blank" rel="noopener" class="nav-ig" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/>
+              <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/>
+            </svg>
+          </a>
+          <a href="tel:2035507730" class="btn btn-primary">Book Now</a>
+          <button class="nav-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </nav>
+    </div>
+    <nav id="mobile-nav" class="nav-mobile" aria-label="Mobile navigation">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="about.html" class="active">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="tel:2035507730" class="btn btn-primary">Call to Book</a>
+      <a href="sms:2035507730" class="btn btn-outline">Text Us</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===== PAGE HERO ===== -->
+    <section class="page-hero">
+      <div class="container">
+        <h1>About <span class="accent">Us</span></h1>
+        <p>Local, reliable, and passionate about every car we touch.</p>
+      </div>
+    </section>
+
+    <!-- ===== BRAND STORY ===== -->
+    <section class="section" aria-labelledby="story-heading">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-body">
+            <h2 id="story-heading">NextDoor.<br>Next Level.</h2>
+            <p>
+              NextDoorCustoms started with a simple idea: your neighbor shouldn't have to drive across town
+              to get their car looking its best. We bring professional-grade detailing straight to your driveway —
+              or you can drop it off at our shop by appointment.
+            </p>
+            <p>
+              Based in the 203, we serve our local community and surrounding Connecticut towns with the same
+              care we'd give our own vehicles. Every wash, wax, and detail is done by hand using quality products
+              that protect your paint and leave your interior spotless.
+            </p>
+            <p>
+              We're not a car wash — we're detailers. That means we take our time, pay attention to the details,
+              and don't hand your car back until it's exactly where it should be.
+            </p>
+            <div style="margin-top:1.5rem">
+              <a href="contact.html" class="btn btn-primary">Book a Detail</a>
+            </div>
+          </div>
+          <div class="about-stats" aria-label="At a glance">
+            <div class="stat-card">
+              <div class="stat-number accent">203</div>
+              <div class="stat-label">Area Code — Serving CT</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number accent">3</div>
+              <div class="stat-label">Detail Packages</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number accent">10%</div>
+              <div class="stat-label">Off Your First Detail</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number accent">100%</div>
+              <div class="stat-label">Satisfaction Guaranteed</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== HOW WE WORK ===== -->
+    <section class="section" style="padding-top:0" aria-labelledby="how-heading">
+      <div class="container">
+        <div class="text-center" style="margin-bottom:2rem">
+          <h2 class="section-title" id="how-heading">Two Ways to Book</h2>
+          <p class="section-subtitle" style="margin-bottom:0">Flexible options to fit your schedule.</p>
+        </div>
+        <div class="options-grid">
+          <div class="option-card">
+            <div class="option-icon" aria-hidden="true">🚗</div>
+            <h3>We Come to You</h3>
+            <p>Our mobile service is fully self-contained. We show up equipped and ready — at your home, office, or wherever your car is parked. No need to go anywhere.</p>
+          </div>
+          <div class="option-card">
+            <div class="option-icon" aria-hidden="true">🏪</div>
+            <h3>Drop Off at the Shop</h3>
+            <p>Prefer a shop setting? We have a location available by appointment only. Call or DM us to schedule your drop-off time.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== VALUES ===== -->
+    <section class="section" style="padding-top:0" aria-labelledby="values-heading">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-title" id="values-heading">What We Stand For</h2>
+        </div>
+        <div class="values-grid">
+          <div class="value-card">
+            <div class="value-icon" aria-hidden="true">🧪</div>
+            <h3>Quality Products</h3>
+            <p>We use professional-grade soaps, waxes, and interior cleaners that protect and enhance every surface.</p>
+          </div>
+          <div class="value-card">
+            <div class="value-icon" aria-hidden="true">⏱️</div>
+            <h3>On Time, Every Time</h3>
+            <p>Your time matters. We show up when we say we will and finish when we commit to finish.</p>
+          </div>
+          <div class="value-card">
+            <div class="value-icon" aria-hidden="true">✅</div>
+            <h3>Satisfaction Guaranteed</h3>
+            <p>If it's not right, we make it right. No shortcuts, no compromises.</p>
+          </div>
+          <div class="value-card">
+            <div class="value-icon" aria-hidden="true">📍</div>
+            <h3>Locally Rooted</h3>
+            <p>We're your neighbors. We care about the community and treat every customer like one.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SERVICE AREA ===== -->
+    <section class="section" style="padding-top:0" aria-labelledby="area-heading">
+      <div class="container">
+        <div class="card">
+          <h2 id="area-heading" style="margin-bottom:0.5rem">Service Area</h2>
+          <p class="text-muted" style="margin-bottom:0">We serve our local town and surrounding Connecticut communities in the 203 area code. Not sure if we cover your area? Just ask — we'll let you know.</p>
+          <div class="area-list" role="list" aria-label="Served areas">
+            <span class="area-tag" role="listitem">Bridgeport</span>
+            <span class="area-tag" role="listitem">Stratford</span>
+            <span class="area-tag" role="listitem">Shelton</span>
+            <span class="area-tag" role="listitem">Derby</span>
+            <span class="area-tag" role="listitem">Ansonia</span>
+            <span class="area-tag" role="listitem">Milford</span>
+            <span class="area-tag" role="listitem">West Haven</span>
+            <span class="area-tag" role="listitem">New Haven</span>
+            <span class="area-tag" role="listitem">Trumbull</span>
+            <span class="area-tag" role="listitem">Monroe</span>
+            <span class="area-tag" role="listitem">Fairfield</span>
+            <span class="area-tag" role="listitem">& More</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="cta-section" aria-labelledby="about-cta-heading">
+      <div class="container">
+        <h2 id="about-cta-heading">Ready to get your car detailed?</h2>
+        <p>Call, text, or DM — we'll get you squared away.</p>
+        <div class="cta-buttons">
+          <a href="tel:2035507730" class="btn btn-primary">Call (203) 550-7730</a>
+          <a href="sms:2035507730" class="btn btn-outline">Text Us</a>
+          <a href="contact.html" class="btn btn-outline">Contact Page</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="nav-logo">NextDoorCustoms</div>
+          <p>Premium mobile car detailing in Connecticut. Quality products, expert hands, every time.</p>
+        </div>
+        <div>
+          <p class="footer-heading">Pages</p>
+          <ul class="footer-links" role="list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services & Pricing</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer-heading">Contact</p>
+          <div class="footer-contact-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            <a href="tel:2035507730">(203) 550-7730</a>
+          </div>
+          <div class="footer-contact-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+            <a href="sms:2035507730">Text (203) 550-7730</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-promo" role="note">
+        First-time customers get 10% off — mention this when you book!
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2025 NextDoorCustoms. All rights reserved.</span>
+        <a href="https://www.instagram.com/NextDoorCustoms" target="_blank" rel="noopener" class="footer-ig" aria-label="Instagram @NextDoorCustoms">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/>
+            <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/>
+          </svg>
+          @NextDoorCustoms
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
